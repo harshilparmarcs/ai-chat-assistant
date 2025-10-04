@@ -1,0 +1,22 @@
+
+
+{
+  "name": "ai-chat-assistant",
+  "version": "1.0.0",
+  "description": "AI chat assistant with persistent memory using Cloudflare Workers AI",
+  "main": "src/worker.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "pages:dev": "wrangler pages dev public",
+    "pages:deploy": "wrangler pages deploy public"
+  },
+  "keywords": ["cloudflare", "workers", "ai", "chat"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241218.0",
+    "wrangler": "^3.95.0",
+    "typescript": "^5.7.2"
+  }
+}
