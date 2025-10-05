@@ -1,7 +1,7 @@
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", { value, configurable: true });
 
-// C:/Users/acer/AppData/Roaming/npm/node_modules/wrangler/wrangler-dist/ProxyServerWorker.js
+// node_modules/wrangler/wrangler-dist/ProxyServerWorker.js
 import { EmailMessage } from "cloudflare:email";
 if (!Symbol.dispose) {
   Symbol.dispose = Symbol.for("dispose");
@@ -2588,7 +2588,7 @@ var ProxyServerWorker_default = {
   }
 };
 
-// C:/Users/acer/AppData/Roaming/npm/node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
+// node_modules/wrangler/templates/middleware/middleware-ensure-req-body-drained.ts
 var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx) => {
   try {
     return await middlewareCtx.next(request, env);
@@ -2606,13 +2606,13 @@ var drainBody = /* @__PURE__ */ __name(async (request, env, _ctx, middlewareCtx)
 }, "drainBody");
 var middleware_ensure_req_body_drained_default = drainBody;
 
-// .wrangler/tmp/bundle-LmUTIR/middleware-insertion-facade.js
+// .wrangler/tmp/bundle-QsUXgh/middleware-insertion-facade.js
 var __INTERNAL_WRANGLER_MIDDLEWARE__ = [
   middleware_ensure_req_body_drained_default
 ];
 var middleware_insertion_facade_default = ProxyServerWorker_default;
 
-// C:/Users/acer/AppData/Roaming/npm/node_modules/wrangler/templates/middleware/common.ts
+// node_modules/wrangler/templates/middleware/common.ts
 var __facade_middleware__ = [];
 function __facade_register__(...args) {
   __facade_middleware__.push(...args.flat());
@@ -2637,7 +2637,7 @@ function __facade_invoke__(request, env, ctx, dispatch, finalMiddleware) {
 }
 __name(__facade_invoke__, "__facade_invoke__");
 
-// .wrangler/tmp/bundle-LmUTIR/middleware-loader.entry.ts
+// .wrangler/tmp/bundle-QsUXgh/middleware-loader.entry.ts
 var __Facade_ScheduledController__ = class ___Facade_ScheduledController__ {
   constructor(scheduledTime, cron, noRetry) {
     this.scheduledTime = scheduledTime;
